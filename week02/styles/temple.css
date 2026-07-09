@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #ffffff;
+  color: #222;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+/* ===== Header ===== */
+header {
+  background-color: #333333;
+  color: #ffffff;
+  padding: 20px 30px;
+}
+
+header p {
+  font-size: 1.3rem;
+  font-weight: bolder;
+}
+
+/* ===== Main ===== */
+main {
+  padding: 30px;
+}
+
+main h1 {
+  text-align: center;
+  font-size: 2rem;
+  margin-bottom: 25px;
+}
+
+/* ===== Image du temple ===== */
+picture {
+  display: block;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+picture img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+  box-shadow: 0 15px 30px;
+}
+
+/* ===== Sections (About / Visiting Information) ===== */
+section {
+  background-color: gray;
+  border-radius: 4px;
+  padding: 20px 25px;
+  margin-bottom: 25px;
+}
+
+section h2 {
+  font-size: 1.3rem;
+  margin-bottom: 10px;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #bbbbbb;
+}
+
+section p {
+  margin-bottom: 10px;
+  line-height: 1.5;
+}
+
+section a {
+  color: #1a4fd6;
+  text-decoration: underline;
+}
+
+section a:hover {
+  color: #0d2f8f;
+}
+
+/* ===== Liste des informations de visite ===== */
+section ul {
+  list-style-type: disc;
+  padding-left: 20px;
+}
+
+section ul li {
+  margin-bottom: 6px;
+  line-height: 1.4;
+}
+
+/* ===== Footer ===== */
+footer {
+  background-color: #333333;
+  color: #ffffff;
+  text-align: center;
+  padding: 15px;
+}
