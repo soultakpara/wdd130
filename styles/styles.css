@@ -1,3 +1,15 @@
+/*====nav===*/
+nav {
+  background-color: #333;
+  padding: 1rem;
+}
+
+nav a {
+  color: blue;
+  padding: 1rem;
+  display: block;
+}
+
 /*====main====*/
 main {
   max-width: 840px;
@@ -6,6 +18,10 @@ main {
 main img {
   width: 150px;
   height: auto;
+  border: 1px;
+  padding: 1rem;
+  box-shadow: #333;
+
 }
 
 /*====aside====*/
@@ -24,9 +40,13 @@ aside img {
   height: auto;
 }
 
-/*====all P====*/
+/*====all,h1 P====*/
 p {
   padding: 0;
+}
+
+h1 {
+  color: #000;
 }
 
 /*====footer===*/
